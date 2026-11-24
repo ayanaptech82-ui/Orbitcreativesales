@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orbit Creative Sales Panel</title>
+<meta name="description" content="Orbit Creative sales panel for the team.">
+<!-- Link preview (WhatsApp, Instagram, etc.) -->
+<meta property="og:title" content="Orbit Creative Sales Panel">
+<meta property="og:description" content="Orbit Creative sales panel for the team.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://ayanaptech82-ui.github.io/Orbitcreativesales/logo.jpg">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="600">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#14122e">
+<meta name="apple-mobile-web-app-title" content="Orbit Sales">
+<meta name="application-name" content="Orbit Sales">
+<style>
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #14122e; color: #f3f1ff; font-family: system-ui, sans-serif; text-align: center; }
+  img { width: 88px; height: 88px; border-radius: 20px; }
+  .open { display: inline-block; margin-top: 8px; padding: 14px 28px; border-radius: 14px; color: #14122e; font-weight: 700; text-decoration: none; background: linear-gradient(120deg, #5aa8f5, #8b6cf0 55%, #d77cf2); }
+  .tip { color: #b6b0e6; font-size: 14px; margin-top: 18px; }
+</style>
+</head>
+<body>
+  <div>
+    <img src="logo.jpg" alt="Orbit Creative">
+    <h1>Orbit Creative Sales Panel</h1>
+    <p><a class="open" href="https://claude.ai/artifact/JNmsBhzwXQch9QYqgNRym1">Open sales panel</a></p>
+    <p class="tip">Add this page to your home screen to use it like an app.</p>
+  </div>
+  <script>
+    // Opened from the home-screen icon: go straight to the panel.
+    if (window.matchMedia('(display-mode: standalone)').matches || navigator.standalone) {
+      location.replace('https://claude.ai/artifact/JNmsBhzwXQch9QYqgNRym1');
+    }
+  </script>
+</body>
+</html>
